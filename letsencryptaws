@@ -1,0 +1,4 @@
+#install letsencryipt
+yum install python27-devel git
+git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
+/opt/letsencrypt/letsencrypt-auto --debug
