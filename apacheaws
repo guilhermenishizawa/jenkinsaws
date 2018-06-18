@@ -1,0 +1,11 @@
+#installing Apache
+sudo yum install -y httpd24
+
+#starting Apache
+sudo service httpd start
+
+#configuring apache to start with server
+sudo chkconfig httpd on
+
+#install apache mod to support SSL/tls
+sudo yum install mod24_ssl
